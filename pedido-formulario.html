@@ -1,0 +1,77 @@
+<html>
+<meta char set=UTF-8>
+<body bgcolor="#FFFFE0">
+<div align="center">
+<h1>Preencha seu pedido:</h1>
+<img src=pedido.png width=80>
+<form>
+<br>Nome completo: <input type=text name="cliente">
+<br>Endereço: <input type=text name="endereço">
+<br><br>
+<table>
+<table border=1 align=center width=25% bordercolor=black>
+<tr>
+<td><b>Bebida</b></td> <td><b>Quantidade</b></td>
+</tr>
+<tr>
+<td><input type=checkbox value=cafe name=produto>Café Tradicional</td> 
+<td><select name=quantidade>
+<option value=1>0
+<option value=2>1
+<option value=3>2
+<option value=4>3
+<option value=5>4
+<option value=6>5
+</select>
+</td>
+</tr>
+<tr>
+<td><input type=checkbox value=capuccino name=produto>Capuccino</td> 
+<td><select name=quantidade>
+<option value=1>0
+<option value=2>1
+<option value=3>2
+<option value=4>3
+<option value=5>4
+<option value=6>5
+</select>
+</td>
+</tr>
+<tr>
+<td><input type=checkbox value=cafegelado name=produto>Café Gelado</td> 
+<td><select name=quantidade>
+<option value=1>0
+<option value=2>1
+<option value=3>2
+<option value=4>3
+<option value=5>4
+<option value=6>5
+</select>
+</td>
+</tr>
+<tr>
+<td><input type=checkbox value=milkshake name=produto>Milkshake de Café</td> 
+<td><select name=quantidade>
+<option value=1>0
+<option value=2>1
+<option value=3>2
+<option value=4>3
+<option value=5>4
+<option value=6>5
+</select>
+</td>
+</tr>
+</table>
+<br>
+<b>Troco?</b>
+<input type=radio value=s name=troco>Sim
+<input type=radio value=n name=troco>Não
+<br><b>Valor integral:</b>
+<input type=text name="valor">
+<br><br>
+<input type=submit value="Enviar Pedido">
+<input type=reset value="Limpar Campos">
+</form>
+</div>
+</body>
+</html>
